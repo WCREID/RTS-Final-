@@ -1,6 +1,6 @@
 Final Readme 
 
-### Task table (mandatory)
+### Task table 
 
 | Task | Function | Period (ms) | WCET measured (µs) | WCET + 30% margin (µs) | Deadline | Priority | Core |
 |------|----------|------------:|-------------------:|----------------------:|---------:|---------:|-----:|
