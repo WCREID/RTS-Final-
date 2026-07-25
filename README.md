@@ -1,24 +1,4 @@
-# App 2 scaffold — multi-task scheduling
-
-Scaffold level: **~70% complete**.
-
-## What's given
-
-- 4 task skeletons pinned to Core 1, priorities pre-assigned (RMS-style)
-- WCET measurement macro: `MEASURE_WCET(max_var, { body })`
-- Web monitor with per-task heartbeat counters and live WCET-max display
-- Wi-Fi + HTTP server boilerplate (reused from App 1)
-
-## What you implement
-
-1. **Theme rename** — replace `YOURTHEME` everywhere
-2. **Four task bodies** — see the comments in each `task_X()` for suggested workloads
-3. **WCET measurement** — fill in `task_d` to log all four WCETs to serial periodically
-4. **README defense** — see below
-
-## README defense (graded)
-
-Your README must include:
+Final Readme 
 
 ### Task table (mandatory)
 
@@ -114,14 +94,6 @@ I (10991) app2: task_b finish t=11021862
 
 This proves preemption because Task B started first, then Task A ran before Task B finished. 
 Since Task A has higher priority than Task B, FreeRTOS preempted Task B when Task A became ready.
-
-
-## How to fail
-
-- Skipping the WCET measurement and writing "the task takes about 1 ms." That's vibes, not engineering.
-- Pinning task D to Core 0. That puts it next to Wi-Fi; Wi-Fi will starve it.
-- Using `vTaskDelay` instead of `vTaskDelayUntil`. App 3 will teach you why; for App 2, use the latter so periods don't drift.
-- Assigning equal priorities to two tasks "to be fair." That's round-robin, not real-time.
 
 ## Setup in Wokwi
 
