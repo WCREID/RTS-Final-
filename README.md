@@ -6,7 +6,7 @@
 
 ## Video Demonstration
 
-[Watch the Sentinel-4 system demonstration](https://drive.google.com/file/d/162OvwN9fzEu3wxNiKXexOmuuFB4m3nBV/view?usp=drive_link)
+[Watch system demonstration](https://drive.google.com/file/d/162OvwN9fzEu3wxNiKXexOmuuFB4m3nBV/view?usp=drive_link)
 
 ## System Architecture
 
