@@ -18,7 +18,3 @@
 
 ## Project Files
 
-- [View the source code](main.c)
-- [View the concurrency diagram](ConcurrencyDiagram.md)
-- [View the CMake configuration](CMakeLists.txt)
-- [View the Wokwi project file](wokwi-project.txt)
