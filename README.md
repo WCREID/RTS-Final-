@@ -4,6 +4,10 @@
 
 [Open the Project Overview PDF](Project%20Overview.pdf)
 
+## Video Demonstration
+
+[Watch the Sentinel-4 system demonstration](https://drive.google.com/file/d/162OvwN9fzEu3wxNiKXexOmuuFB4m3nBV/view?usp=drive_link)
+
 ## System Architecture
 
 ![System Architecture](RTOS%20Final%20System%20Architecture%20Diagram.png)
