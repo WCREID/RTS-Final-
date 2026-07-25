@@ -115,17 +115,3 @@ idf.py build
 idf.py -p /dev/ttyUSB0 flash monitor
 ```
 
-## Viewing the 4-task monitor
-
-After Wi-Fi connects, the serial log prints the IP (`Got IP: 10.13.37.x`). In Wokwi, click the network indicator that appears in the simulator panel once port 80 is up &mdash; the table opens in a new tab and refreshes every second.
-
-What to look for:
-
-- All four heartbeat columns increment monotonically. If one stops growing, that task is starved or hung.
-- WCET columns climb during the first few seconds, then stabilize once the worst-case path has been exercised. Use those stable numbers in your README.
-- Refresh rate is 1 Hz; if the page itself stalls, your HTTP handler is being preempted &mdash; a teachable moment about Core 0 / Core 1 isolation.
-
-## Honor code
-
-AI is allowed for filling in task bodies. Disclose what you used. Be ready to explain why your WCET measurement is honest (vs. a best-case timing that misses the worst-case path).
-AI Disclosure:  https://chatgpt.com/share/6a25f61d-e2a4-83ea-acc7-bae3ceaba976
