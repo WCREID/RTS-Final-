@@ -22,4 +22,4 @@
 
 ## Project Files
 
-[Download the project](Reid-FINAL-RTS26Summer (2))
+[Download the project](Reid-FINAL-RTS26Summer.zip)
